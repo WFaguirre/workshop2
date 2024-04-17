@@ -1,3 +1,4 @@
+
 const travelDestination = prompt('Elije por favor el destino: ');
 
 let dayTravel = prompt('Cuantos dias de viaje desea: ');
