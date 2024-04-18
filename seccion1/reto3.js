@@ -29,17 +29,18 @@ if (leftlover > 100000) {
     window.alert('No puedes comprar ningún souvenir');
 }
 
-let option = prompt('Desea ver el menú escriba: si/no');
+let option = prompt('A continuación se nombra la lista de souvenirs con su respectivo precio: 1.mug $12000, 2.imán $10000');
+
 
 window.alert()
 
-switch(option === "si"){
-    case "mug":
-        window.alert("El mug vale 12000 te alcanza para: ", leftlover/12000, "mugs");
+switch(option){
+    case "1":
+        window.alert("El mug vale 12000 te alcanza para: " + (leftlover/12000) + "mugs");
         break;
 
-    case "Imanes":
-        window.alert("El iman vale $10000 te alcanza para: ", leftlover/10000, "imanes");
+    case "2":
+        window.alert("El iman vale $10000 te alcanza para: " + (leftlover/10000) + "imanes");
         break;
 
     default:
