@@ -14,3 +14,11 @@ if (accounts >= budgetToday){
         window.alert("Debe desistir de los libros");
     }
 }
+
+let feedBack = prompt('¿Teniendo en cuenta las recomendaciones que deseas ajustar?: "comida", "libros"');
+
+if (feedBack == "comida") {
+    window.alert('Has desistido de la comida, por lo tanto puedes comprar libros y ahorrar tranquilamente');
+}  if(feedBack == "libros"){
+    window.alert('Has desistido de los libros por lo tanto, puedes cenar y ahorrar tranquilamente');
+}
